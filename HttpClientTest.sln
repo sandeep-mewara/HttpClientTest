@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClientPerfTest", "HttpClientPerfTest\HttpClientPerfTest.csproj", "{889EFFD4-CB09-4B54-934D-3B50E7188AEF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClientPerformance", "HttpClientPerformance\HttpClientPerformance.csproj", "{889EFFD4-CB09-4B54-934D-3B50E7188AEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpClientManager", "HTTPClientManager\HttpClientManager.csproj", "{654695A1-82EF-4288-BB68-0FA1229DDFDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{889EFFD4-CB09-4B54-934D-3B50E7188AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{889EFFD4-CB09-4B54-934D-3B50E7188AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{889EFFD4-CB09-4B54-934D-3B50E7188AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{654695A1-82EF-4288-BB68-0FA1229DDFDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{654695A1-82EF-4288-BB68-0FA1229DDFDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{654695A1-82EF-4288-BB68-0FA1229DDFDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{654695A1-82EF-4288-BB68-0FA1229DDFDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

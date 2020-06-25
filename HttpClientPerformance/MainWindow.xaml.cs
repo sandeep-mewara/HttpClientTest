@@ -91,7 +91,7 @@ namespace HttpClientPerfTest
             }
             catch (Exception exception)
             {
-                
+                MessageBox.Show($"Error: {exception.Message}");
             }
         }
 
@@ -107,7 +107,7 @@ namespace HttpClientPerfTest
             }
             catch (Exception exception)
             {
-               
+                MessageBox.Show($"Error: {exception.Message}");
             }
         }
 
